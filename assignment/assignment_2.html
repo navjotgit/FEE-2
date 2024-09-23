@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Admission Form</title>
+</head>
+<body>
+    <h1>College Admission Form</h1>
+    <form action="">
+      <h5>Basic Information Section:</h5>
+      <label for="name">Your Name :</label>
+      <input type="text" id="name"><br>
+      <label for="dob">
+        Date of Birth : 
+        <input type="date" id="dob">
+      </label>
+       <br>
+      <label for="gender">
+        Gender : 
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="Other">
+        <label for="Other">Other</label>
+      </label>
+      <br>
+      <label for="address">Address : </label>
+      <input type="textarea" id="address"><br>
+      <label for="email">EMAIL : </label>
+      <input type="email" name="email" id="email"><br>
+      <label for="phone">Phone : </label>
+      <input type="tel" name="phone" id="phone">
+      <h5>Academic Information Section:</h5>
+      <label for="hquali">Highest Qualification :</label>
+       <select name="hquali" id="hquali">
+        <option value="engineering">engineering</option>
+        <option value="medical">medical</option>
+        <option value="arts">arts</option>
+        <option value="commerce">commerce</option>
+       </select><br>
+       <label for="percentage">Percentage :</label>
+       <input type="text" name="percentage" id="percentage"><br>
+       <label for="passing-year">Passing-year : </label>
+       <input type="text" name="passing-year" id="passing-year">
+       <h5>Course Selection:</h5>
+       <label for="course">Course</label>
+       <select name="course" id="course">
+        <option value="Ba">BA</option>
+        <option value="MBA">MBA</option>
+        <option value="B.TECH">B.TECH</option>
+        <option value="M.TECH">M.TECH</option>
+       </select><br>
+       <label for="Preferred Mode of Study">Preferred Mode of Study :
+       
+       <input type="radio" name="Preferred Mode of Study" id="Online">
+       <label for="Online">Online</label>
+       
+       <input type="radio" name="Preferred Mode of Study" id="Offline">
+       <label for="Offline">Offline</label><br>
+       <h5>Document Upload:</h5>
+       <label for="profile picture">Upload Profile Picture :</label>
+       <input type="file" name="profile picture" id="profile picture"><br>
+       <label for="marksheet">Upload marksheet :</label>
+       <input type="file" name="marksheet" id="marksheet"><br>
+       <h5>Declaration Section:</h5>
+       <input type="checkbox" name="terms" id="terms">
+       <label for="terms">agreeing to terms and conditions.</label>
+       <h5>Submit Button:</h5>
+       <label for="submit">Submit : </label>
+       <input type="submit">
+      </label>
+    </form> 
+</body>
+</html>
